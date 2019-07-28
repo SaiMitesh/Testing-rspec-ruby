@@ -1,0 +1,1 @@
+rspec --format RspecHtmlFormatter spec/*

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1564308930528" stop="1564308931805">
+  <name>TEST1</name>
+  <title>TEST1</title>
+  <test-cases>
+    <test-case start="1564308930534" stop="1564308931803" status="passed">
+      <name>TEST1 should test1</name>
+      <title>TEST1 should test1</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="19198160"/>
+        <label name="host" value="Sai"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="19198160"/>
+    <label name="host" value="Sai"/>
+  </labels>
+</ns2:test-suite>

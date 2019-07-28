@@ -1,0 +1,13 @@
+#GemFile
+
+source 'https://rubygems.org'
+
+gem "rspec"
+
+gem "airborne"
+
+gem 'rspec_html_reporter'
+gem 'rspec_html_formatter'
+gem "bundler"
+
+gem 'allure-rspec'

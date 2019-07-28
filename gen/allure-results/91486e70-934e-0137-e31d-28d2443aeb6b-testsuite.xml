@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1564308931807" stop="1564308932605">
+  <name>TEST2</name>
+  <title>TEST2</title>
+  <test-cases>
+    <test-case start="1564308931812" stop="1564308932385" status="broken">
+      <name>TEST2 should test2</name>
+      <title>TEST2 should test2</title>
+      <failure>
+        <message>no implicit conversion of Hash into Integer</message>
+        <stack-trace>C:/Ruby25-x64/lib/ruby/2.5.0/net/http.rb:977:in `initialize'&#xD;
+C:/Ruby25-x64/lib/ruby/2.5.0/net/http.rb:977:in `new'&#xD;
+C:/Ruby25-x64/lib/ruby/2.5.0/net/http.rb:977:in `connect'&#xD;
+C:/Ruby25-x64/lib/ruby/2.5.0/net/http.rb:920:in `do_start'&#xD;
+C:/Ruby25-x64/lib/ruby/2.5.0/net/http.rb:909:in `start'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rest-client-2.0.2-x64-mingw32/lib/restclient/request.rb:715:in `transmit'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rest-client-2.0.2-x64-mingw32/lib/restclient/request.rb:145:in `execute'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rest-client-2.0.2-x64-mingw32/lib/restclient/request.rb:52:in `execute'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/airborne-0.3.4/lib/airborne/rest_client_requester.rb:24:in `make_request'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/airborne-0.3.4/lib/airborne/base.rb:33:in `get'&#xD;
+C:/Users/Sathya Sai/RubymineProjects/automation2/spec/script.rb:52:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example.rb:257:in `instance_exec'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example.rb:257:in `block in run'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example.rb:503:in `block in with_around_and_singleton_context_hooks'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example.rb:460:in `block in with_around_example_hooks'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/hooks.rb:464:in `block in run'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/hooks.rb:602:in `run_around_example_hooks_for'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/hooks.rb:464:in `run'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example.rb:460:in `with_around_example_hooks'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example.rb:503:in `with_around_and_singleton_context_hooks'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example.rb:254:in `run'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example_group.rb:633:in `block in run_examples'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example_group.rb:629:in `map'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example_group.rb:629:in `run_examples'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/example_group.rb:595:in `run'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/runner.rb:116:in `block (3 levels) in run_specs'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/runner.rb:116:in `map'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/runner.rb:116:in `block (2 levels) in run_specs'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/configuration.rb:2008:in `with_suite_hooks'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/runner.rb:111:in `block in run_specs'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/reporter.rb:74:in `report'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/runner.rb:110:in `run_specs'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/runner.rb:87:in `run'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/runner.rb:71:in `run'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.8.2/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+C:/Ruby25-x64/bin/rspec:23:in `load'&#xD;
+C:/Ruby25-x64/bin/rspec:23:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="19198160"/>
+        <label name="host" value="Sai"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="19198160"/>
+    <label name="host" value="Sai"/>
+  </labels>
+</ns2:test-suite>

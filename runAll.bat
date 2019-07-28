@@ -1,0 +1,1 @@
+rspec --format html --out reports/runAll.html spec/*
